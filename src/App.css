@@ -51,7 +51,7 @@ nav ul li {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -66,7 +66,7 @@ nav ul li {
   background: url(Wallpaper.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -282,7 +282,7 @@ background: var(--primary-transparent-black);
 /********************** CONTACTS COMPONENT **********************/
 .contacts {
   background: var(--primary-dark);
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .contacts h1 {
@@ -294,6 +294,7 @@ background: var(--primary-transparent-black);
 .contacts p {
   color: var(--primary-light-grey);
   font-size: 1.2rem;
+  padding: 1rem;
 }
 
 /********************** INPUT **********************/
@@ -313,7 +314,7 @@ background: var(--primary-transparent-black);
 }
 
 .contacts .container {
-  padding: 4rem 0;
+  padding: 2rem 1rem;
 }
 
 .contacts input:focus, .contacts textarea:focus {
@@ -366,7 +367,7 @@ textarea.form-control {
 }
 
 /********************** MEDIA **********************/
-@media(max-width:768) {
+@media(max-width:760) {
   .contacts {
     overflow-x: hidden;
   }
@@ -378,4 +379,26 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/**************** FOOTER COMPONENT **********************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-light-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-light-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }

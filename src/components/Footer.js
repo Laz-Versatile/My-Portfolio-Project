@@ -22,7 +22,7 @@ const Footer = () => {
                             <p>Shop 22E Tonimas Plaza, High-Level, Makurdi, Benue State</p>
                         </div>
                         <div className="d-flex">
-                            <a href="tel:08061500982">(+243)61500982</a>
+                            <a href="tel:08061500982">(+234)8061500982</a>
                         </div>
                         <div className="d-flex">
                             <p>lazversatile@gmail.com</p>
@@ -47,35 +47,35 @@ const Footer = () => {
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
                             <FacebookShareButton
-                            url={"https://www.flickr.com/photos/187603064@N08/?"}
+                            url={"https://laz-versatile.github.io/My-Portfolio-Project/"}
                             quote={"FrontEnd Web Developer and Graphic Designer"}
                             hashtag="#javascript-react/ai/ps"
                             >
                                 <FacebookIcon className="mx-3" size={36}/>
                             </FacebookShareButton>
                             <WhatsappShareButton
-                            url={"https://www.flickr.com/photos/187603064@N08/?"}
+                            url={"https://laz-versatile.github.io/My-Portfolio-Project/"}
                             quote={"FrontEnd Web Developer and Graphic Designer"}
                             hashtag="#javascript-react/ai/ps"
                             >
                                 <WhatsappIcon className="mx-3" size={36}/>
                             </WhatsappShareButton>
                             <TwitterShareButton
-                            url={"https://www.flickr.com/photos/187603064@N08/?"}
+                            url={"https://laz-versatile.github.io/My-Portfolio-Project/"}
                             quote={"FrontEnd Web Developer and Graphic Designer"}
                             hashtag="#javascript-react/ai/ps"
                             >
                                 <TwitterIcon className="mx-3" size={36}/>
                             </TwitterShareButton>
                             <LinkedinShareButton
-                            url={"https://www.flickr.com/photos/187603064@N08/?"}
+                            url={"https://laz-versatile.github.io/My-Portfolio-Project/"}
                             quote={"FrontEnd Web Developer and Graphic Designer"}
                             hashtag="#javascript-react/ai/ps"
                             >
                                 <LinkedinIcon className="mx-3" size={36}/>
                             </LinkedinShareButton>
                             <RedditShareButton
-                            url={"https://www.flickr.com/photos/187603064@N08/?"}
+                            url={"https://laz-versatile.github.io/My-Portfolio-Project/"}
                             quote={"FrontEnd Web Developer and Graphic Designer"}
                             hashtag="#javascript-react/ai/ps"
                             >
